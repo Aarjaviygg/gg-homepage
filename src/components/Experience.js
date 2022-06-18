@@ -3,6 +3,7 @@ import React from 'react'
 import ExperienceInfo from "./ExperienceInfo"
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import pic from "../assets/pic.png"
 
 function Experience() {
   return (
@@ -11,7 +12,7 @@ function Experience() {
             <div className="experience">
                 {ExperienceInfo.map((experience) => (
                     <div className="experience-info">
-                        <img src={experience.imgurl} alt=""/>
+                        <img src={pic} alt=""/>
                         <div className="experience-content">
                         <h4>{experience.name}</h4>
                         <h6>{experience.experience}</h6>
