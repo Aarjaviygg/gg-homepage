@@ -1,0 +1,15 @@
+.about{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.details{
+    margin-left:25%;
+    margin-right:25%;
+    line-height: 180%;
+}
+
+.header{
+    text-align: center;
+}

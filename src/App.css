@@ -1,0 +1,80 @@
+/* Influencers.js */
+
+.influencer-div{
+  justify-content: center;;
+  margin: 0% 5% 0% 5%;
+  padding: 3%;
+}
+
+.influencer-div h1{
+  text-align: center;
+}
+
+.influencer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.influencer-info{
+  margin: 5px;
+  width: 328px;
+  height: 400px;
+  background-color: rgb(245, 243, 243);
+}
+
+.influencer-info img{
+  height: 180px;
+  display: block;
+  margin:25px auto 10px auto;
+}
+
+.influencer-info h3, p{
+  text-align: center;
+  margin: 20px 15px 0 15px;
+}
+
+.influencer-info a{
+  text-decoration: none;
+  color: black;
+}
+
+/* TeamList.js */
+
+.team-div{
+  justify-content: center;;
+  margin: 0% 5% 2% 5%;
+  padding: 3%;
+}
+
+.team-div h1{
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.team-info{
+  margin: 5px;
+  width: 220px;
+  background-color: rgb(245, 243, 243);
+}
+
+.team-info img{
+  height: 150px;
+  width: 200px;
+  display: block;
+  margin:10px auto 10px auto;
+}
+
+.team-info h4,.team-info h6{
+  text-align: center;
+}
+

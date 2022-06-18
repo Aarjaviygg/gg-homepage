@@ -1,0 +1,65 @@
+.experience-div{
+    background: #EEEEEECC;
+    justify-content: center;;
+    padding: 2%;
+  }
+  
+  .experience-div h1{
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  .experience{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1%;
+  }
+  
+  .experience-info{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    width: 500px;
+    height: 300px;
+    background: #FAFAFA;
+    border-radius: 16px;
+    margin: 10px ;
+}
+
+  .experience-info img{
+    height: 300px;
+    width: 200px;
+    border-radius: 16px 0px 0px 16px;
+  }
+
+  .experience-content h4{
+    margin-left: 20px;
+  }
+
+  .experience-content h6{
+    font-weight: lighter;
+    margin: 15px 20px 15px 20px;
+  }
+
+  .experience-content button{
+    margin-left:20px;
+    margin-right: 100px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background: #EFB523;
+    border:none;
+    color:white;
+    font-weight: bold;
+  }
+
+  .experience-content a{
+    color: black;
+  }
+
+  .experience-icon{
+    padding: 2px;
+    margin: 2px;
+  }
+  
