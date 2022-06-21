@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import img1 from "../assets/logo.jpeg";
+import img1 from "../../assets/logo.jpeg";
 
 const Box = styled.div`
   padding: 10px 10px;

@@ -1,5 +1,5 @@
 import React from "react";
-import Influencers from "../components/Influencers"
+import Influencers from "./Influencers"
 import { Link } from "react-router-dom";
 
 function createProduct(influencer) {

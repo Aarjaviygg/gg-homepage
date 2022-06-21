@@ -1,7 +1,7 @@
 import './App.css';
 import {Routes, Route} from 'react-router-dom';
-import InfluencersPage from './components/InfluencersPage';
-import HomePage from './components/HomePage';
+import InfluencersPage from './components/InfluencersPage/InfluencersPage';
+import HomePage from './components/Homepage/HomePage';
 
 function App() {
   return (

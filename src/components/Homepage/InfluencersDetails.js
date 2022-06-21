@@ -4,7 +4,7 @@ const InfluencersDetails = () => {
     return ( 
         <>
         <div className='influencercard'>
-        <img className='influencerImage' src={require('../assets/influencer1.png')} alt="influencer"/>
+        <img className='influencerImage' src={require('../../assets/influencer1.png')} alt="influencer"/>
         <div className='aboutinf'>
             <h1 className="name">Katy Perry</h1>
             <span className="aboutInfluencer">
@@ -17,7 +17,7 @@ const InfluencersDetails = () => {
         </div>
 
         <div className='influencercard'>
-        <img src={require('../assets/influencer2.png')} alt="influencer"/>
+        <img src={require('../../assets/influencer2.png')} alt="influencer"/>
         <div className='aboutinf'>
             <h1 className="name">Madonna</h1>
             <span className="aboutInfluencer">
