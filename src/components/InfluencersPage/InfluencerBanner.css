@@ -1,0 +1,43 @@
+.influencer-banner{
+    background: linear-gradient(90deg, #96E9FB 0%, #EEEEEE 100%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.influencer-banner img{
+    width: 522px;
+    height: 501px;
+    margin-right: 150px;
+}
+
+.influencer-banner-content{
+    margin-top: 120px;
+    margin-left: 120px;
+}
+
+.influencer-banner-content h5{
+    color: #2A7CC7;
+    margin-bottom: 30px;
+}
+
+.influencer-banner-content h1{
+   font-size: 58px;
+   color: white;
+   margin-bottom: 30px;
+}
+
+.influencer-banner-content h4{
+    width: 489px;
+    height: 60px;
+    color: #666666;
+    margin-bottom: 30px;
+}
+
+.influencer-banner-content button{
+    padding: 10px 30px ;
+    background-color: transparent;
+    color: #23A6F0;
+    font-weight: bold;
+    border-color: #23A6F0;
+    border-radius: 5px;
+}

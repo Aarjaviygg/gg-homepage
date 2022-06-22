@@ -1,0 +1,42 @@
+.catalogue-div{
+    justify-content: center;;
+    margin: 0% 5% 0% 5%;
+    padding: 3%;
+  }
+  
+  .catalogue-div h1{
+    text-align: center;
+  }
+  
+  .catalogue{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3%;
+  }
+  
+  .catalogue-content{
+    margin: 10px;
+  }
+  
+  .catalogue-content img{
+    width: 382px;
+    height: 327px;
+    display: block;
+  }
+  
+  .catalogue-content h4{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* .catalogue-content a{
+    text-decoration: none;
+    color: black;
+  } */
+
+  .influencer-sale{
+    margin-left: 3%;
+  }

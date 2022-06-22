@@ -1,9 +1,12 @@
 import React from "react";
+import Catalogue from "./Catalogue";
+import InfluencerBanner from "./InfluencerBanner";
 
 const InfluencersPage = () => {
     return (
       <div >
-      Influencers Page
+      <InfluencerBanner/>
+      <Catalogue/>
       </div>
     )
 }

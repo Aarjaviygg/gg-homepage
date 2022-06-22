@@ -1,23 +1,24 @@
 import React from 'react'
 import './Catalogue.css'
 import CatalogueTypes from "./CatalogueTypes"
+import tshirt from "../../assets/Rectangle 760.png"
+import sale from "../../assets/Frame 11.png"
 
 function Catalogue() {
   return (
-    <div className="experience-div">
-            <h1>Some of our experienced influencers</h1>
-            <div className="experience">
-                {CatalogueTypes.map((experience) => (
-                    <div className="experience-info">
-                        {/* <img src={} alt="" /> */}
-                        <div className="experience-content">
-                            <h4>{experience.name}</h4>
-                            <h6>{experience.experience}</h6>
-                        </div>
-                    </div>
-                ))}
-            </div>
-        </div>
+    <div className="catalogue-div">
+      <h1>Featured Products</h1>
+      <div className="catalogue">
+        {CatalogueTypes.map((ct) => (
+          <div className="catalogue-content">
+            <img src={tshirt} alt="" />
+            <h4>{ct.name}</h4>
+          </div>
+        ))}
+      </div>
+      <img className='influencer-sale' src={sale} alt="" />
+    </div>
+
   )
 }
 
