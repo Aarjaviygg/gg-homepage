@@ -1,0 +1,29 @@
+.announcementBarContainer{
+    display: flex;
+    justify-content: center;
+    color:white; 
+    align-items: center;
+    background-color: black; 
+}
+
+.announcement-text{
+    font-family: 'Roboto Mono', monospace;
+font-size: 0.8rem;
+font-style: normal;
+line-height: 37px;
+color: #FFFFFF;
+
+}
+
+.arrowIcon{
+    margin-left: 52%;
+}
+
+.announcement a{
+    text-decoration: none;
+}
+
+.forMargin{
+    margin-left:12%;
+    margin-right: 12%;
+}

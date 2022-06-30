@@ -5,10 +5,14 @@ import AboutUs from './AboutUs.js'
 import TrendingInfluencers from './TrendingInfluencers'
 import Footer from './Footer'
 import Experience from './Experience'
+import Announcementbar from "./announcementbar"
+import Navbar from './NavBar'
 
 function HomePage() {
   return (
     <>
+        <Announcementbar/>
+        <Navbar/>
         <AboutUs />
         <TrendingInfluencers />
         <Trending/>
